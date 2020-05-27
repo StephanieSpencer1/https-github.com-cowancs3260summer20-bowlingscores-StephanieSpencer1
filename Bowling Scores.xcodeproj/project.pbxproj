@@ -15,6 +15,8 @@
 		095BD854247EC59100FCBDC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095BD852247EC59100FCBDC5 /* LaunchScreen.storyboard */; };
 		095BD85F247EC59100FCBDC5 /* Bowling_ScoresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095BD85E247EC59100FCBDC5 /* Bowling_ScoresTests.swift */; };
 		095BD86A247EC59100FCBDC5 /* Bowling_ScoresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095BD869247EC59100FCBDC5 /* Bowling_ScoresUITests.swift */; };
+		095BD878247EC79900FCBDC5 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 095BD877247EC79900FCBDC5 /* Jenkinsfile */; };
+		095BD87A247EC7B200FCBDC5 /* Bowling ScoresUITestCS3260.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095BD879247EC7B200FCBDC5 /* Bowling ScoresUITestCS3260.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		095BD865247EC59100FCBDC5 /* Bowling ScoresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bowling ScoresUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		095BD869247EC59100FCBDC5 /* Bowling_ScoresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling_ScoresUITests.swift; sourceTree = "<group>"; };
 		095BD86B247EC59100FCBDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095BD877247EC79900FCBDC5 /* Jenkinsfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
+		095BD879247EC7B200FCBDC5 /* Bowling ScoresUITestCS3260.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bowling ScoresUITestCS3260.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		095BD83B247EC58F00FCBDC5 = {
 			isa = PBXGroup;
 			children = (
+				095BD877247EC79900FCBDC5 /* Jenkinsfile */,
 				095BD846247EC58F00FCBDC5 /* Bowling Scores */,
 				095BD85D247EC59100FCBDC5 /* Bowling ScoresTests */,
 				095BD868247EC59100FCBDC5 /* Bowling ScoresUITests */,
@@ -122,6 +127,7 @@
 		095BD868247EC59100FCBDC5 /* Bowling ScoresUITests */ = {
 			isa = PBXGroup;
 			children = (
+				095BD879247EC7B200FCBDC5 /* Bowling ScoresUITestCS3260.swift */,
 				095BD869247EC59100FCBDC5 /* Bowling_ScoresUITests.swift */,
 				095BD86B247EC59100FCBDC5 /* Info.plist */,
 			);
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				095BD854247EC59100FCBDC5 /* LaunchScreen.storyboard in Resources */,
+				095BD878247EC79900FCBDC5 /* Jenkinsfile in Resources */,
 				095BD851247EC59100FCBDC5 /* Assets.xcassets in Resources */,
 				095BD84F247EC58F00FCBDC5 /* Main.storyboard in Resources */,
 			);
@@ -277,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095BD87A247EC7B200FCBDC5 /* Bowling ScoresUITestCS3260.swift in Sources */,
 				095BD86A247EC59100FCBDC5 /* Bowling_ScoresUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
